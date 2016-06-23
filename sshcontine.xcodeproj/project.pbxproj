@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D6F74561C8EBE1E0012D0AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F74551C8EBE1E0012D0AC /* main.m */; };
+		9DE6F6601D1B76A900A49C6E /* SSHContine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6F65F1D1B76A900A49C6E /* SSHContine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9D6F74521C8EBE1E0012D0AC /* sshcontine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sshcontine; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6F74551C8EBE1E0012D0AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE6F65E1D1B76A900A49C6E /* SSHContine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHContine.h; sourceTree = "<group>"; };
+		9DE6F65F1D1B76A900A49C6E /* SSHContine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHContine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9D6F74551C8EBE1E0012D0AC /* main.m */,
+				9DE6F65E1D1B76A900A49C6E /* SSHContine.h */,
+				9DE6F65F1D1B76A900A49C6E /* SSHContine.m */,
 			);
 			path = sshcontine;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6F74561C8EBE1E0012D0AC /* main.m in Sources */,
+				9DE6F6601D1B76A900A49C6E /* SSHContine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +213,9 @@
 		9D6F745A1C8EBE1E0012D0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +223,9 @@
 		9D6F745B1C8EBE1E0012D0AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +249,7 @@
 				9D6F745B1C8EBE1E0012D0AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
